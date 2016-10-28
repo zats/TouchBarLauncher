@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5C8DCF911DC3D32700971FD0 /* TouchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8DCF911DC3D32700971FD0 /* TouchBarLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C8DCF941DC3D32700971FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C8DCF961DC3D32700971FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C8DCF991DC3D32700971FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 		5C8DCF881DC3D32700971FD0 = {
 			isa = PBXGroup;
 			children = (
-				5C8DCF931DC3D32700971FD0 /* TouchBar */,
+				5C8DCF931DC3D32700971FD0 /* TouchBarLauncher */,
 				5C8DCF921DC3D32700971FD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,12 +42,12 @@
 		5C8DCF921DC3D32700971FD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C8DCF911DC3D32700971FD0 /* TouchBar.app */,
+				5C8DCF911DC3D32700971FD0 /* TouchBarLauncher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C8DCF931DC3D32700971FD0 /* TouchBar */ = {
+		5C8DCF931DC3D32700971FD0 /* TouchBarLauncher */ = {
 			isa = PBXGroup;
 			children = (
 				5C8DCF941DC3D32700971FD0 /* AppDelegate.swift */,
@@ -55,15 +55,15 @@
 				5C8DCF981DC3D32700971FD0 /* MainMenu.xib */,
 				5C8DCF9B1DC3D32700971FD0 /* Info.plist */,
 			);
-			path = TouchBar;
+			path = TouchBarLauncher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C8DCF901DC3D32700971FD0 /* TouchBar */ = {
+		5C8DCF901DC3D32700971FD0 /* TouchBarLauncher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C8DCF9E1DC3D32700971FD0 /* Build configuration list for PBXNativeTarget "TouchBar" */;
+			buildConfigurationList = 5C8DCF9E1DC3D32700971FD0 /* Build configuration list for PBXNativeTarget "TouchBarLauncher" */;
 			buildPhases = (
 				5C8DCF8D1DC3D32700971FD0 /* Sources */,
 				5C8DCF8E1DC3D32700971FD0 /* Frameworks */,
@@ -73,9 +73,9 @@
 			);
 			dependencies = (
 			);
-			name = TouchBar;
+			name = TouchBarLauncher;
 			productName = TouchBar;
-			productReference = 5C8DCF911DC3D32700971FD0 /* TouchBar.app */;
+			productReference = 5C8DCF911DC3D32700971FD0 /* TouchBarLauncher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +95,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C8DCF8C1DC3D32700971FD0 /* Build configuration list for PBXProject "TouchBar" */;
+			buildConfigurationList = 5C8DCF8C1DC3D32700971FD0 /* Build configuration list for PBXProject "TouchBarLauncher" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C8DCF901DC3D32700971FD0 /* TouchBar */,
+				5C8DCF901DC3D32700971FD0 /* TouchBarLauncher */,
 			);
 		};
 /* End PBXProject section */
@@ -244,9 +244,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5KE88HWMKJ;
-				INFOPLIST_FILE = TouchBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBar;
+				INFOPLIST_FILE = TouchBarLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks /Applications/Xcode.app/Contents/OtherFrameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBarLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -258,9 +258,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 5KE88HWMKJ;
-				INFOPLIST_FILE = TouchBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBar;
+				INFOPLIST_FILE = TouchBarLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks /Applications/Xcode.app/Contents/OtherFrameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBarLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -269,7 +269,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C8DCF8C1DC3D32700971FD0 /* Build configuration list for PBXProject "TouchBar" */ = {
+		5C8DCF8C1DC3D32700971FD0 /* Build configuration list for PBXProject "TouchBarLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C8DCF9C1DC3D32700971FD0 /* Debug */,
@@ -278,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C8DCF9E1DC3D32700971FD0 /* Build configuration list for PBXNativeTarget "TouchBar" */ = {
+		5C8DCF9E1DC3D32700971FD0 /* Build configuration list for PBXNativeTarget "TouchBarLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C8DCF9F1DC3D32700971FD0 /* Debug */,

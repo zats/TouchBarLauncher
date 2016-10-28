@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TouchBar.xcodeproj">
+      location = "self:/Users/zats/Documents/TouchBar/TouchBarLauncher.xcodeproj">
    </FileRef>
 </Workspace>
